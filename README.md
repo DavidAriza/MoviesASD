@@ -10,7 +10,7 @@ The goal of this project is to create a simple movies app that allows users to s
 
 - Go to [flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) (Dart needs to be at least 3.6.0)
 
-- Extract the file in some location (e.g., C:\flutter en Windows)
+- Download the flutter SDK and extract it in some location (e.g., C:\flutter en Windows)
 
 - Following the windows example go to "Environment variables". Add C:\flutter\bin to Path and then restar your terminal
 
