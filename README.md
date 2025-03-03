@@ -2,8 +2,7 @@
 
 ## Overview
 
-The goal of this project is to create a simple movies app that allows the user to search movies, see movies details and save it in favorites using The Movie DB api
-
+The goal of this project is to create a simple movies app that allows users to see a list of movies, search for movies, view movie details, and save them as favorites using The Movie DB API.
 
 ## How to run the project
 
