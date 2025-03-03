@@ -51,3 +51,5 @@ dartz package for better error handling – Either<Failure, Success> helps retur
 ✅ Mark/Unmark as Favorite
 
 ✅ Favorite List Page
+
+✅ Light and dark theme
