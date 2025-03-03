@@ -20,7 +20,7 @@ The goal of this project is to create a simple movies app that allows users to s
 
 1. Run `git clone https://github.com/DavidAriza/MoviesASD.git` or download the project as Zip and extrac all in your desired folder.
 
-2. Open [api_constants.dart](./lib/core/constants/api_constants.dart) file and specify the token.
+2. Open [lib/core/constants/api_constants.dart](./lib/core/constants/api_constants.dart) file and specify the token.
 
 3. Run `flutter devices` and check the id (2nd column) of the device you want to run it
 
