@@ -8,7 +8,13 @@ The goal of this project is to create a simple movies app that allows users to s
 
 #### Developer Environment Requirements
 
-- [Flutter](https://flutter.dev/docs/get-started/install) (Dart needs to be at least 3.6.0)
+- Go to [flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) (Dart needs to be at least 3.6.0)
+
+- Extract the file in some location (e.g., C:\flutter en Windows)
+
+- Following the windows example go to "Environment variables". Add C:\flutter\bin to Path and then restar your terminal
+
+- Run `flutter --version` to verify the installation
 
 ### Steps to run the project
 
@@ -29,6 +35,8 @@ flutter_bloc is used to manage state because it is robust and easy to test, than
 Hive serves as a local database solution for storing favorite movies. It is fast, lightweight, and non-relational, making it perfect for our use case.
 
 cached_network_image is crucial for improving performance when loading lists of elements with images.
+
+dartz package for better error handling – Either<Failure, Success> helps return failures or results instead of just throwing exceptions.
 
 ## Features
 
