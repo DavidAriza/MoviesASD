@@ -39,7 +39,7 @@ class _MovieDetailsPageState extends State<MovieDetailsPage> {
           SliverAppBar(
             pinned: true,
             forceElevated: true,
-            expandedHeight: size.width > 600 ? size.height * 0.6 : size.height * 0.4,
+            expandedHeight: size.width > 600 ? size.height * 0.6 : size.height * 0.5,
             leading: LeadingMovieDetails(),
             flexibleSpace: MovieImage(
               imageUrl: widget.imageUrl,

@@ -29,7 +29,6 @@ dev_dependencies:
     sdk: flutter
   integration_test:
     sdk: flutter
-  patrol: ^3.13.0
   flutter_lints: ^5.0.0
   build_runner: ^2.3.3
   hive_generator: ^2.0.1
@@ -39,9 +38,3 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-patrol:
-  app_name: Patrol Basics Tutorial
-  android:
-    package_name: com.example.movies_asd
-  ios:
-    bundle_id: com.example.movies_asd

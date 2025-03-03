@@ -24,6 +24,7 @@ class MovieImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(width);
     return FlexibleSpaceBar(
       background: Stack(
         fit: StackFit.expand,
@@ -45,7 +46,7 @@ class MovieImage extends StatelessWidget {
             ),
           CachedNetworkImage(
             imageUrl: imageUrl,
-            fit: width > 600 ? BoxFit.contain : BoxFit.fitWidth,
+            fit: width > 600 ? BoxFit.contain : BoxFit.fill,
             errorWidget: (_, __, ___) => const Icon(
               Icons.error,
               color: AppColors.error,
